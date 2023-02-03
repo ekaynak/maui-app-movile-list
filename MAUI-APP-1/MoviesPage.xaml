@@ -11,7 +11,7 @@
                     <DataTemplate>
                         <StackLayout>
                             <Grid ColumnDefinitions="85,*" RowDefinitions="Auto,Auto">
-                                <Image Source="{Binding ImageUrl}" Grid.RowSpan="2" Aspect="AspectFill" HeightRequest="75" WidthRequest="75" />
+                                
                                 <Label Text="{Binding Name}"  FontSize="20" Grid.Column="2"/>
                                 <Label Text="{Binding Year}" TextColor="Gray" Grid.Row="1" Grid.Column="2" />
                             </Grid>
